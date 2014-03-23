@@ -193,13 +193,13 @@ HTMLActuator.prototype.scoreTweetButton = function () {
   var tweet = document.createElement("a");
   tweet.classList.add("twitter-share-button");
   tweet.setAttribute("href", "https://twitter.com/share");
-  tweet.setAttribute("data-via", "oprilzeng");
-  tweet.setAttribute("data-url", "http://oprilzeng.github.io/2048/full");
-  tweet.setAttribute("data-counturl", "http://oprilzeng.github.io/2048/full/");
+  tweet.setAttribute("data-via", "david50407");
+  tweet.setAttribute("data-url", "http://github.davy.twbbs.org/2048-history/");
+  tweet.setAttribute("data-counturl", "http://github.davy.twbbs.org/2048-history/");
   tweet.textContent = "Tweet";
 
-  var text = "I scored " + this.score + " points at PRC2048-Full edition, a game where you " +
-             "join numbers to score high! #PRC2048";
+  var text = "I scored " + this.score + " points at 2048 history edition, a game where you " +
+             "join numbers to score high! #TW2048";
   tweet.setAttribute("data-text", text);
 
   return tweet;
